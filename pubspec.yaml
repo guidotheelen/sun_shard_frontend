@@ -15,8 +15,6 @@ dependencies:
   get_it: ^2.0.1
   # Bloc for state management
   flutter_bloc: ^0.21.0
-  # Functional programming thingies
-  dartz: ^0.8.6
   # Remote API
   connectivity: ^0.4.3+7
   # Local cache
@@ -25,6 +23,7 @@ dependencies:
   uuid: ^3.0.6
   http: ^0.13.5
   equatable: ^2.0.5
+  dartz: ^0.10.1
 
 dev_dependencies:
   flutter_test:

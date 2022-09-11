@@ -1,7 +1,7 @@
-// Flutter imports:
+// 🐦 Flutter imports:
 import 'package:flutter/material.dart';
 
-// Project imports:
+// 🌎 Project imports:
 import 'package:sun_shard_frontend/sun/presentation/theming/theme_constants.dart';
 
 extension CustomSizedBox on SizedBox {

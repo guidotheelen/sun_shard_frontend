@@ -1,7 +1,7 @@
-// Flutter imports:
+// 🐦 Flutter imports:
 import 'package:flutter/material.dart';
 
-// Project imports:
+// 🌎 Project imports:
 import 'sun/domain/entities/product.dart';
 import 'sun/presentation/theming/theme_constants.dart';
 import 'sun_app_bar.dart';

@@ -1,10 +1,10 @@
-// Flutter imports:
+// 🐦 Flutter imports:
 import 'package:flutter/material.dart';
 
-// Project imports:
+// 🌎 Project imports:
+import 'product_card.dart';
 import 'sun/domain/entities/product.dart';
 import 'sun/presentation/theming/theme_constants.dart';
-import 'product_card.dart';
 
 class CardHolder extends StatelessWidget {
   static const crystalNames = [

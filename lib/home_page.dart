@@ -1,7 +1,7 @@
-// Flutter imports:
+// 🐦 Flutter imports:
 import 'package:flutter/material.dart';
 
-// Project imports:
+// 🌎 Project imports:
 import 'package:sun_shard_frontend/card_holder.dart';
 import 'package:sun_shard_frontend/sun/presentation/theming/theme_constants.dart';
 import 'sun_app_bar.dart';
