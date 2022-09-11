@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
-import 'package:ss_frontend/sun/presentation/theming/sun_theme.dart';
+import 'package:sun_shard_frontend/sun/presentation/theming/sun_theme.dart';
 
 void main() async {
   runApp(const SunApp());
