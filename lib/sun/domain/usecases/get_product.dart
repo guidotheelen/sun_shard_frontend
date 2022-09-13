@@ -1,9 +1,10 @@
-// 🌎 Project imports:
+// 📦 Package imports:
 import 'package:dartz/dartz.dart';
 
-import 'package:sun_shard_frontend/core/error/failures.dart';
-import 'package:sun_shard_frontend/sun/domain/entities/product.dart';
-import 'package:sun_shard_frontend/sun/domain/repositories/product_repository.dart';
+// 🌎 Project imports:
+import '../../../core/error/failures.dart';
+import '../entities/product.dart';
+import '../repositories/product_repository.dart';
 
 class GetProduct {
   final ProductRepository repository;

@@ -30,10 +30,15 @@ dev_dependencies:
     sdk: flutter
   mocktail: ^0.3.0
   import_sorter: ^4.6.0
+  import_path_converter: ^1.0.1
   flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
+
+import_sorter:
+  emojis: true
+  comments: true
 
   # To add assets to your application, add an assets section, like this:
   # assets:
