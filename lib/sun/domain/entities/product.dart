@@ -12,7 +12,6 @@ class Product extends Equatable {
   final String? description;
   final String? imageUrl;
   final double? price;
-  final bool isFavorite;
 
   Product({
     String? id,
@@ -20,7 +19,6 @@ class Product extends Equatable {
     this.description,
     this.imageUrl,
     this.price,
-    this.isFavorite = false,
   }) : id = id ?? const Uuid().v4();
 
   @override
