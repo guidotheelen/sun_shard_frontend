@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 // 🌎 Project imports:
-import 'sunshard/presentation/theming/sun_theme.dart';
+import 'sun_shard/presentation/theming/sun_theme.dart';
 
 void main() async {
   runApp(const SunApp());
@@ -18,6 +18,11 @@ class SunApp extends StatelessWidget {
     return MaterialApp(
       title: appName,
       theme: SunTheme,
+      home: const Scaffold(
+        body: Center(
+          child: Text(appName),
+        ),
+      ),
     );
   }
 }
