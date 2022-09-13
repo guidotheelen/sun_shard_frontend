@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 // 🌎 Project imports:
 import 'card_holder.dart';
-import 'sun/presentation/theming/theme_constants.dart';
+import 'sunshard/presentation/theming/theme_constants.dart';
 import 'sun_app_bar.dart';
 
 class HomePage extends StatelessWidget {

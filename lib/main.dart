@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 // 🌎 Project imports:
-import 'sun/presentation/theming/sun_theme.dart';
+import 'sunshard/presentation/theming/sun_theme.dart';
 
 void main() async {
   runApp(const SunApp());

@@ -1,4 +1,4 @@
-import 'package:sun_shard_frontend/sun/domain/entities/product.dart';
+import 'package:sun_shard_frontend/sunshard/domain/entities/product.dart';
 
 class ProductModel extends Product {
   ProductModel({

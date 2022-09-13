@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 // 🌎 Project imports:
-import 'sun/presentation/theming/theme_constants.dart';
+import 'sunshard/presentation/theming/theme_constants.dart';
 
 extension CustomSizedBox on SizedBox {
   SizedBox get xs => SizedBox(

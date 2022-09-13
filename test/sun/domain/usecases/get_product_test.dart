@@ -4,9 +4,9 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 
 // 🌎 Project imports:
-import '../../../../lib/sun/domain/entities/product.dart';
-import '../../../../lib/sun/domain/repositories/product_repository.dart';
-import '../../../../lib/sun/domain/usecases/get_product.dart';
+import '../../../../lib/sunshard/domain/entities/product.dart';
+import '../../../../lib/sunshard/domain/repositories/product_repository.dart';
+import '../../../../lib/sunshard/domain/usecases/get_product.dart';
 
 class MockProductRepository extends Mock implements ProductRepository {}
 

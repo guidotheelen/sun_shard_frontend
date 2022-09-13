@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sun_shard_frontend/sun/data/models/product_model.dart';
-import 'package:sun_shard_frontend/sun/domain/entities/product.dart';
+import 'package:sun_shard_frontend/sunshard/data/models/product_model.dart';
+import 'package:sun_shard_frontend/sunshard/domain/entities/product.dart';
 
 import '../../../fixtures/fixture_reader.dart';
 

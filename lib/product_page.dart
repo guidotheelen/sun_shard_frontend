@@ -2,8 +2,8 @@
 import 'package:flutter/material.dart';
 
 // 🌎 Project imports:
-import 'sun/domain/entities/product.dart';
-import 'sun/presentation/theming/theme_constants.dart';
+import 'sunshard/domain/entities/product.dart';
+import 'sunshard/presentation/theming/theme_constants.dart';
 import 'sun_app_bar.dart';
 
 class ProductPage extends StatelessWidget {

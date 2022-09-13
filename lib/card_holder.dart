@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 
 // 🌎 Project imports:
 import 'product_card.dart';
-import 'sun/domain/entities/product.dart';
-import 'sun/presentation/theming/theme_constants.dart';
+import 'sunshard/domain/entities/product.dart';
+import 'sunshard/presentation/theming/theme_constants.dart';
 
 class CardHolder extends StatelessWidget {
   static const crystalNames = [

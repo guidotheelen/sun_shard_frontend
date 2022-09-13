@@ -5,8 +5,8 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 // 🌎 Project imports:
-import 'sun/domain/entities/product.dart';
-import 'sun/presentation/theming/theme_constants.dart';
+import 'sunshard/domain/entities/product.dart';
+import 'sunshard/presentation/theming/theme_constants.dart';
 
 class ProductCard extends StatefulWidget {
   static const cardWidth = 300.0;
