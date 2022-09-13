@@ -1,4 +1,4 @@
-class Constants {
+class ThemeConstants {
   static Units get units => Units();
   static Numerics get numerics => Numerics();
 }

@@ -6,27 +6,27 @@ import '../../sun_shard/presentation/theming/theme_constants.dart';
 
 extension SunShardSizedBox on SizedBox {
   SizedBox get xs => SizedBox(
-        width: Constants.units.xs,
-        height: Constants.units.xs,
+        width: ThemeConstants.units.xs,
+        height: ThemeConstants.units.xs,
       );
 
   SizedBox get s => SizedBox(
-        width: Constants.units.s,
-        height: Constants.units.s,
+        width: ThemeConstants.units.s,
+        height: ThemeConstants.units.s,
       );
 
   SizedBox get m => SizedBox(
-        width: Constants.units.m,
-        height: Constants.units.m,
+        width: ThemeConstants.units.m,
+        height: ThemeConstants.units.m,
       );
 
   SizedBox get l => SizedBox(
-        width: Constants.units.l,
-        height: Constants.units.l,
+        width: ThemeConstants.units.l,
+        height: ThemeConstants.units.l,
       );
 
   SizedBox get xl => SizedBox(
-        width: Constants.units.xl,
-        height: Constants.units.xl,
+        width: ThemeConstants.units.xl,
+        height: ThemeConstants.units.xl,
       );
 }
