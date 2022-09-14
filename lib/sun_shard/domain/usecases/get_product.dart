@@ -3,7 +3,7 @@ import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
 
 // 🌎 Project imports:
-import '../../../core/error/failures.dart';
+import '../../../core/error/failure.dart';
 import '../../../core/usecases/usecase.dart';
 import '../entities/product.dart';
 import '../repositories/product_repository.dart';

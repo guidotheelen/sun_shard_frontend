@@ -1,4 +1,5 @@
-import 'package:sun_shard_frontend/sun_shard/domain/entities/product.dart';
+// 🌎 Project imports:
+import '../../domain/entities/product.dart';
 
 class ProductModel extends Product {
   ProductModel({

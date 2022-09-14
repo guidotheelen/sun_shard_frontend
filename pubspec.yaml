@@ -29,9 +29,9 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   mocktail: ^0.3.0
+  flutter_lints: ^2.0.0
   import_sorter: ^4.6.0
   import_path_converter: ^1.0.1
-  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
@@ -39,6 +39,9 @@ flutter:
 import_sorter:
   emojis: true
   comments: true
+
+import_path_converter:
+  relative: true
 
   # To add assets to your application, add an assets section, like this:
   # assets:

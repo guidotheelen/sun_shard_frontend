@@ -1,10 +1,13 @@
+// 🎯 Dart imports:
 import 'dart:convert';
 
+// 📦 Package imports:
 import 'package:flutter_test/flutter_test.dart';
+
+// 🌎 Project imports:
 import 'package:sun_shard_frontend/sun_shard/data/models/product_model.dart';
 import 'package:sun_shard_frontend/sun_shard/domain/entities/product.dart';
-
-import '../../../fixtures/fixture_reader.dart';
+import '/Users/guidotheelen/Projects/sun_shard_frontend/test/fixtures/fixture_reader.dart';
 
 void main() {
   final tProductModel = ProductModel(id: '1234567890', name: 'Mighty crystal');

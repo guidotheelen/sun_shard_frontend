@@ -2,7 +2,7 @@
 import 'package:dartz/dartz.dart';
 
 // 🌎 Project imports:
-import '../../../core/error/failures.dart';
+import '../../../core/error/failure.dart';
 import '../entities/product.dart';
 
 abstract class ProductRepository {
