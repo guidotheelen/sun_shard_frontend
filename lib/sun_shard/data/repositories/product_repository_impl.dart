@@ -23,13 +23,17 @@ class ProductRepositoryImpl implements ProductRepository {
 
   @override
   Future<Either<Failure, Product>> getProduct(String id) async {
-    networkInfo.isConnected;
-    try {
-      final remoteProduct = await remoteDataSource.getProduct(id);
-      localDataSource.cacheProduct(remoteProduct);
-      return Right(remoteProduct);
-    } on ServerException {
-      return Left(ServerFailure());
+    if (await networkInfo.isConnected) {
+      try {
+        final remoteProduct = await remoteDataSource.getProduct(id);
+        localDataSource.cacheProduct(remoteProduct);
+        return Right(remoteProduct);
+      } on ServerException {
+        return Left(ServerFailure());
+      }
+    } else {
+      final localTrivia = await localDataSource.getLastProduct();
+      return Right(localTrivia);
     }
   }
 }

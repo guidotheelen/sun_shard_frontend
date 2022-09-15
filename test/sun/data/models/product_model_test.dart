@@ -36,8 +36,8 @@ void main() {
       'should return a valid product model from JSON without optional fields',
       () async {
         final Map<String, dynamic> jsonMap = {
-          "id": "1",
-          "name": "Test Text",
+          'id': '1',
+          'name': 'Test Text',
         };
 
         final result = ProductModel.fromJson(jsonMap);
@@ -54,11 +54,11 @@ void main() {
         final result = tProductModel.toJson();
 
         final expectedMap = {
-          "id": "1234567890",
-          "name": "Mighty crystal",
-          "description": null,
-          "imageUrl": null,
-          "price": null,
+          'id': '1234567890',
+          'name': 'Mighty crystal',
+          'description': null,
+          'imageUrl': null,
+          'price': null,
         };
 
         expect(result, expectedMap);
